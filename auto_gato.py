@@ -7,9 +7,9 @@ import os
 pygame.init()
 
 dir = os.path.dirname(__file__)
-pygame.display.set_caption("Gato")
-icon = pygame.image.load(os.path.join(dir, "icon.png"))
-pygame.display.set_icon(icon)
+pygame.display.set_caption("Tic Tac Toe")
+#icon = pygame.image.load(os.path.join(dir, "icon.png"))
+#pygame.display.set_icon(icon)
 
 gamemode = 1
 size = width, height = 400, 400
